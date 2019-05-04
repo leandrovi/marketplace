@@ -1,0 +1,19 @@
+<html>
+
+<head>
+  <style>
+    body {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+  </style>
+</head>
+
+<body>
+  <strong>Olá, {{ ad.author.name }}</strong>
+  <p>Você tem uma nova solicitação de compra para o anúnico {{ ad.title }}</p>
+  <br>
+  <strong>{{ user.name }} ({{ user.email }}): </strong>
+  <p>{{  content }}</p>
+</body>
+
+</html>

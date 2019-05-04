@@ -12,12 +12,8 @@ routes.post('/users', controllers.UserController.store)
 routes.use(authMiddleware)
 
 /*
- * Ads
+ * Purchases
  */
-routes.get('/ads', controllers.AdController.index)
-routes.get('/ads/:id', controllers.AdController.show)
-routes.post('/ads', controllers.AdController.store)
-routes.put('/ads/:id', controllers.AdController.update)
-routes.delete('/ads/:id', controllers.AdController.destroy)
+routes.post('/purchase', controllers.PurchaseController.store)
 
 module.exports = routes
