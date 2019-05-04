@@ -17,3 +17,6 @@ App desenvolvido com instruções da [Rocketseat](https://github.com/rocketseat)
 - Nodemon
 - Mongoose (ORM)
 - Insomnia.rest (for testing our requests)
+- Docker (for database image)
+- Bcryptjs
+-
